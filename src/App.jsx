@@ -1,3 +1,11 @@
-export default function Square() {
-  return <button className="square">X</button>;
+import Board from './Board';
+
+function App() {
+  return (
+    <>
+      <Board />
+    </>
+  );
 }
+
+export default App;
