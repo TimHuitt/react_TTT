@@ -29,6 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-size: 16px;
 }
 
 h1 {
@@ -47,15 +48,17 @@ button {
   height: 100px;
   border-radius: 8px;
   border: 1px solid transparent;
-  margin: .25em;
-  font-size: 1em;
+  margin: .15em .05em;
+  padding-bottom: 10px;
+  font-size: 4em;
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-  line-height: 100px; 
-  vertical-align: top;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button:hover {
